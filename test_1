@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <h1 style="text-align: center;">Create Your Oracle Account</h1>
+    <h2 style="text-align: center;">Already have an Oracle account? <text style="color: maroon">Sign in</text> </h2>
+
+<body bgcolor="#F4F4F4">
+    <form>
+        <br>
+        <br>
+    Email Address<text style="color: red">*</text>   <input type="email" name="Email"> <text style="color: grey;">Your email address is your username.</text>
+    <br>
+    <br>
+    Password<text style="color: red">*</text>   <input type="password" name="password">  
+    <br>
+    <br>
+    Retype Password<text style="color: red">*</text>   <input type="password" name="password">
+    <br>
+    <br>
+    Country<text style="color: red">*</text>    <select>
+                                                    <option values="India">India</option>
+                                                    <option values="England">England</option>
+                                                    <option values="Italy">Italy</option>
+                                                    <option values="Korea">Korea</option>
+                                                    <option values="Pakistan">Pakistan</option></select>
+    <br>
+    <br>       
+    Name<text style="color: red">*</text> <input type="text" name="FirstName" > <input type="text" name="LastName">
+    <br>
+    <br>
+    Job Title<text style="color: red">*</text> <input type="text" name="job">
+    <br>
+    <br>
+    Work Phone<text style="color: red">*</text> <input type="number" name="phone">
+    <br>
+    <br>
+    Company Name<text style="color: red">*</text> <input type="text" name="name">
+    <br>
+    <br>
+    Address<text style="color: red">*</text> <input type="text" name="name">
+    <br>
+    <br>
+    City<text style="color: red">*</text> <input type="text" name="city">
+    <br>
+    <br>
+    State/Province<text style="color: red">*</text> <select>
+                                                        <option values="-Select-">-Select-</option>
+                                                        <option values="-Select-">Karnataka</option>
+                                                        <option values="-Select-">Andhra Pradesh</option>
+                                                        <option values="-Select-">Maharashtra</option>
+                                                        <option values="-Select-">West Bengal</option>
+                                                        <option values="-Select-">Odisha</option>
+                                                        <option values="-Select-">Tamil Nadu</option>
+    </select>
+    <br>
+    <br>
+    ZIP/Postal Code<text style="color: red">*</text> <input type="number" name="pincode">
+    <p style="color:grey">
+    <font size=2>You may opt-out of market all market communications: <a href="google.com"><text style="color: brown">Unsubscribe</text></a></font></p>
+    <p style="color: grey;">
+    <font size=3>By clicking on the "Create Account" button below, you understand and agree that the use of Oracle's web site is subjected to the <a href= "first.html"><text style="color: brown">Oracle.com Terms and Use.</text></a>
+        Additional details regarding the Oracle's collection and use of your personal information, including information about access, retention, rectification,deletion, security,cross-border transfers and other 
+        topics, is available in the <a href= "first.html"><text style="color:brown">Oracle Privacy Policy</text></a> </font>
+    </p>
+    <input type="submit" value="Create Account">
+    <br>
+    <br>
+    <a href="google.com"><text style="color: brown">Account Help|Subscriptions|Unsubscribe|Terms of Use and Privacy|Cookie Preferences</text></a>
+
+
+
+
+</form>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="registrationform.css">
+</head>
+<body>
+    <p class="p1"><b>Create Your Account</b></p> 
+    <p class="p2"><b>Already have an Tech Account? <span style="color: red;">Sign in</span></b></p>
+    <form action="/Account-Form-db/AccountController" method="post">
+        <table>
+            <tr>
+                <td class="td1">First_Name<span style="color: red;">*</span></td>
+                <td class="td2"><input type="text" name="First_Name" ></td>
+              
+            </tr>
+            <tr>
+                <td class="td1">Last_Name<span style="color: red;">*</span></td>
+                <td class="td2"><input type="text" name="Last_Name" ></td>
+              
+            </tr>
+           
+            <tr>
+                <td class="td1">City<span style="color: red;">*</span></td>
+                <td class="td2">
+                    <select name="City">
+                        <option>HYDERABAD</option>
+                        <option>DELHI</option>
+                        <option>RANCHI</option>
+                        <option>ORISSA</option>
+                        <option>JAIPUR</option>
+                    </select>
+                </td>
+            </tr>
+          <tr>  <input type="radio" name="Gender" value="male"> Male<br>
+                <input type="radio" name="Gender" value="female"> Female<br>
+                    <input type="radio" name="Gender" value="other"> Other<br>
+            
+                <td></button><input type="submit" value="Submit">></td>
+            </tr>
+        </table>
+    </form>
+    <p class="p3">Account Help | Subscriptions | Unsubscribe | Terms of Use and Privacy | Cookie Preferences</p>
+</body>
+</html>
